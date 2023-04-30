@@ -9,13 +9,13 @@
         <el-form status-icon :model="classify" class="demo-form-inline">
             <el-row :gutter="20">
                 <el-col :xs="24" :sm="24" :md="12" :lg="5" :xl="5">
-                    <el-form-item prop="classifyName" label="分类名称：" style="width: 100%;">
-                        <el-input v-model="classify.classifyName" placeholder="请输入分类名称" />
+                    <el-form-item prop="classifyName" label="输入分类名称：" style="width: 100%;">
+                        <el-input v-model="classify.classifyName" placeholder="输入分类名称" />
                     </el-form-item>
                 </el-col>
                 <el-col :xs="24" :sm="24" :md="12" :lg="5" :xl="5">
                     <el-form-item prop="classifyIntroduce" label="分类介绍：" style="width: 100%;">
-                        <el-input v-model="classify.classifyIntroduce" placeholder="请输入分类介绍" />
+                        <el-input v-model="classify.classifyIntroduce" placeholder="输入分类介绍" />
                     </el-form-item>
                 </el-col>
                 <el-col :xs="12" :sm="12" :md="8" :lg="3" :xl="3">

@@ -57,7 +57,7 @@
                     <p>
                         <span>已绑定邮箱：</span><span style="font-size: 25px;">{{userInfo.userEmail}}</span>
                     </p>
-                    <p>邮箱作为您身份验证的重要方式，请谨慎操作！</p>
+                    <p>邮箱作为您身份验证和找回密码的重要方式，请谨慎操作！</p>
                     <p>
                         <el-form ref="toBindFormRef" :rules="toBindRules" status-icon :model="toBind"
                             class="demo-form-inline">
@@ -128,7 +128,7 @@
                     align-items: center;">
                         <el-icon style="margin-right: 5px;">
                             <CircleCheck />
-                        </el-icon>密码6~18位字母、数字、特殊字符组成
+                        </el-icon>建议高复杂度密码组合 ，6~18位字母、数字、特殊字符
                     </p>
                     <br>
                     <p style="display: inline-flex;
@@ -136,18 +136,18 @@
                     align-items: center;">
                         <el-icon style="margin-right: 5px;">
                             <Warning />
-                        </el-icon>安全提示：新密码请勿与旧密码过于相似
+                        </el-icon>安全提示：新旧密码切勿过于相似
                     </p>
                     <el-form ref="modifyFormRef" :rules="modifyRules" :model="modify" class="demo-form-inline">
                         <el-row :gutter="20">
                             <el-col :xs="24" :sm="24" :md="10" :lg="10" :xl="10">
                                 <el-form-item prop="usedPass" label="旧密码：" style="width: 100%;">
-                                    <el-input v-model="modify.usedPass" show-password placeholder="请输入旧密码" />
+                                    <el-input v-model="modify.usedPass" show-password placeholder="" />
                                 </el-form-item>
                             </el-col>
                             <el-col :xs="24" :sm="24" :md="10" :lg="10" :xl="10">
                                 <el-form-item prop="newPass" label="新密码：" style="width: 100%;">
-                                    <el-input v-model="modify.newPass" show-password placeholder="请输入新密码" />
+                                    <el-input v-model="modify.newPass" show-password placeholder="" />
                                 </el-form-item>
                             </el-col>
                             <el-col :xs="24" :sm="24" :md="4" :lg="4" :xl="4" style="text-align: center;">

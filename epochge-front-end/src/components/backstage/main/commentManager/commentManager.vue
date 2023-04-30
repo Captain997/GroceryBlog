@@ -43,13 +43,13 @@
                 :header-cell-style="{fontSize: '15px',background:'#2fa7b9','color':'white',textAlign:'center' }">
                 <el-table-column label="序号" width="100" type="index" :index="Nindex" />
                 <el-table-column prop="commentId" label="评论ID" width="100" />
-                <el-table-column label="上级评论ID" width="120">
+                <el-table-column label="父级评论ID" width="120">
                     <template #default="scope">
                         <div v-if="scope.row.parentId == 0">一级评论</div>
                         <div v-else>{{scope.row.parentId}}</div>
                     </template>
                 </el-table-column>
-                <el-table-column prop="userName" label="评论者" width="150" />
+                <el-table-column prop="userName" label="评论人" width="150" />
                 <el-table-column label="内容">
                     <template #default="scope">
                         <el-tooltip :content="scope.row.content" placement="top" effect="light">
@@ -57,7 +57,7 @@
                         </el-tooltip>
                     </template>
                 </el-table-column>
-                <el-table-column label="评论文章">
+                <el-table-column label="文章">
                     <template #default="scope">
                         <el-tooltip :content="scope.row.articleTitle" placement="top" effect="light">
                             <a :href="'/articleDetails/'+scope.row.articleId"
@@ -70,11 +70,11 @@
                         </el-tooltip>
                     </template>
                 </el-table-column>
-                <el-table-column prop="commentDate" label="评论时间" />
+                <el-table-column prop="commentDate" label="时间" />
                 <el-table-column label="操作" width="80">
                     <template #default="scope">
                         <el-popconfirm confirm-button-text="确定" cancel-button-text="取消" :icon="Delete"
-                            icon-color="#626AEF" :title="'确定删除此评论吗？'" @confirm="deleteComment(scope.$index, scope.row)">
+                            icon-color="#626AEF" :title="'确定删除评论吗？'" @confirm="deleteComment(scope.$index, scope.row)">
                             <template #reference>
                                 <el-button size="small" type="danger" style="margin-bottom: 10px;">删除</el-button>
                             </template>

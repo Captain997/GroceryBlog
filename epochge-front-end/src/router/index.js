@@ -111,7 +111,7 @@ const routes = [
       // 链接管理
       path: '/linkManager',
       name: '链接管理',
-      meta: { title: 'Bpvank - 链接管理', chineseName: '链接管理' },
+      meta: { title: '链接管理', chineseName: '链接管理' },
       component: () => require.ensure([], (require) => require("../components/backstage/main/linkManager/linkManager.vue")),
     }, {
       // 个人设置

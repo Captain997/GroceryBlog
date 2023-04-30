@@ -11,7 +11,7 @@
                     </h3>
                     <div class="content">
                         <h4>首页置顶文章（单选）</h4>
-                        <p>提示：1、不选择则不显示置顶文章。</p>
+                        <p>不选择则不显示置顶文章。</p>
                         <el-select-v2 v-model="stickArticleValue" :options="articleInfo" placeholder="请选择首页置顶文章"
                             style="width: 100%" clearable="true" value-key="label" size="large">
                             <template #default="{ item }">
@@ -24,7 +24,7 @@
                     </div>
                     <div class="content">
                         <h4>首页文章展示（多选）</h4>
-                        <p>提示：1、最多选择10条数据。</p>
+                        <p>最多10篇文章</p>
                         <el-select-v2 v-model="allArticleValue" :options="articleInfo" placeholder="请选择首页文章展示【10篇】"
                             style="width: 100%" multiple value-key="label" :multiple-limit="10" clearable="true"
                             size="large">
@@ -38,7 +38,7 @@
                     </div>
                     <div class="content">
                         <h4>左侧精选文章（多选）</h4>
-                        <p>提示：1、最多选择8条数据。2、选中的第一条文章为封面文章</p>
+                        <p>最多选择8篇文章，选中的第一篇文章为封面文章</p>
                         <el-select-v2 v-model="featuredArticleValue" :options="articleInfo"
                             placeholder="请选择首页左侧精选文章【8篇】" style="width: 100%" multiple value-key="label"
                             :multiple-limit="8" clearable="true" size="large">
@@ -52,7 +52,7 @@
                     </div>
                     <div class="content">
                         <h4>左侧技术专区文章（多选）</h4>
-                        <p>提示：1、最多选择10条数据。</p>
+                        <p>最多选择10篇文章</p>
                         <el-select-v2 v-model="technologyArticleValue" :options="technologyArticleInfo"
                             placeholder="请选择首页左侧技术专区文章【10篇】" style="width: 100%" multiple value-key="label"
                             :multiple-limit="10" clearable="true" size="large">
@@ -66,7 +66,7 @@
                     </div>
                     <div class="content">
                         <h4>右侧资源专区文章（多选）</h4>
-                        <p>提示：1、最多选择10条数据。2、选中的第一条文章为封面文章</p>
+                        <p>最多选择10篇文章，选中的第一篇文章为封面文章</p>
                         <el-select-v2 v-model="resourceArticleValue" :options="resourceArticleInfo"
                             placeholder="请选择首页右侧资源专区文章【10篇】" style="width: 100%" multiple value-key="label"
                             :multiple-limit="10" clearable="true" size="large">
@@ -78,63 +78,7 @@
                             </template>
                         </el-select-v2>
                     </div>
-                    <div class="content">
-                        <h4>左侧广告1</h4>
-                        <h5>广告图</h5>
-                        <p>提示：点击上传的图片地址由系统生成，修改会导致图片失效</p>
-                        <el-input size="large" v-model="advertising.advertisingImg1" placeholder="请点击上传图片或手动输入图片地址">
-                            <template #append>
-                                <el-upload ref="uploadEle" class="upload-demo" :action="uploadURL"
-                                    :on-success="handleAvatarSuccess1" :before-upload="beforeUploadFunction"
-                                    :show-file-list="false">
-                                    <template #trigger>
-                                        <el-button style="width: 100px;">上传图片</el-button>
-                                    </template>
-                                </el-upload>
-                            </template>
-                        </el-input>
-                        <h5>广告链接</h5>
-                        <p>提示：链接必须包含http或者https</p>
-                        <el-input size="large" v-model="advertising.advertisingLink1" placeholder="请输入广告链接" />
-                    </div>
-                    <div class="content">
-                        <h4>右侧广告1</h4>
-                        <h5>广告图</h5>
-                        <p>提示：点击上传的图片地址由系统生成，修改会导致图片失效</p>
-                        <el-input size="large" v-model="advertising.advertisingImg2" placeholder="请点击上传图片或手动输入图片地址">
-                            <template #append>
-                                <el-upload ref="uploadEle" class="upload-demo" :action="uploadURL"
-                                    :on-success="handleAvatarSuccess2" :before-upload="beforeUploadFunction"
-                                    :show-file-list="false">
-                                    <template #trigger>
-                                        <el-button style="width: 100px;">上传图片</el-button>
-                                    </template>
-                                </el-upload>
-                            </template>
-                        </el-input>
-                        <h5>广告链接</h5>
-                        <p>提示：链接必须包含http或者https</p>
-                        <el-input size="large" v-model="advertising.advertisingLink2" placeholder="请输入广告链接" />
-                    </div>
-                    <div class="content">
-                        <h4>右侧广告2</h4>
-                        <h5>广告图</h5>
-                        <p>提示：点击上传的图片地址由系统生成，修改会导致图片失效</p>
-                        <el-input size="large" v-model="advertising.advertisingImg3" placeholder="请点击上传图片或手动输入图片地址">
-                            <template #append>
-                                <el-upload ref="uploadEle" class="upload-demo" :action="uploadURL"
-                                    :on-success="handleAvatarSuccess3" :before-upload="beforeUploadFunction"
-                                    :show-file-list="false">
-                                    <template #trigger>
-                                        <el-button style="width: 100px;">上传图片</el-button>
-                                    </template>
-                                </el-upload>
-                            </template>
-                        </el-input>
-                        <h5>广告链接</h5>
-                        <p>提示：链接必须包含http或者https</p>
-                        <el-input size="large" v-model="advertising.advertisingLink3" placeholder="请输入广告链接" />
-                    </div>
+        
                     <h3 class="title">
                         <el-icon style="margin-right: 10px;">
                             <Setting />
