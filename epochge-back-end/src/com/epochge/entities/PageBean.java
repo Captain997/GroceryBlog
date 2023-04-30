@@ -4,7 +4,6 @@ import java.util.List;
 
 /**
  * 分页对象
- * @author Bpvank
  */
 public class PageBean<T> {
     //总记录数、总页数、当前页码、页面内容（list)

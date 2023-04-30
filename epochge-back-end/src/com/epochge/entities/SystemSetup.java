@@ -2,8 +2,6 @@ package com.epochge.entities;
 
 /**
  * 系统设置
- *
- * @author Bpvank
  */
 public class SystemSetup {
     private String stickArticle;// '置顶',

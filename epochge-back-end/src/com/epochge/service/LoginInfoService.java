@@ -6,8 +6,6 @@ import com.epochge.dao.impl.LoginInfoDaoImpl;
 /**
  * 功能说明
  *
- * @author Bpvank
- * @date 2022-08-05 16:40:42
  */
 public class LoginInfoService {
     LoginInfoDao dao = new LoginInfoDaoImpl();

@@ -4,7 +4,6 @@ import java.util.Date;
 
 /**
  * 留言
- * @author Bpvank
  */
 public class Message {
     private Integer messageId; // 留言编号

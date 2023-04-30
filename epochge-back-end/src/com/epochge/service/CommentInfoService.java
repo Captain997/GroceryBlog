@@ -9,8 +9,6 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author Bpvank
- * @date 2022-07-30 09:24:02
  */
 public class CommentInfoService {
     CommentInfoDao dao = new CommentInfoDaoImpl();

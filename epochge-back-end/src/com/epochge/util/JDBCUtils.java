@@ -11,7 +11,7 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * @author Bpvank
+ *
  */
 public class JDBCUtils {
 //获取包

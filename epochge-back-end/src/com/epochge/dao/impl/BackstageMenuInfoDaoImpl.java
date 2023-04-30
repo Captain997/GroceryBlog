@@ -11,8 +11,6 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author Bpvank
- * @date 2022-07-20 10:21:21
  */
 public class BackstageMenuInfoDaoImpl implements BackstageMenuInfoDao {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());

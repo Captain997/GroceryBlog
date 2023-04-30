@@ -9,8 +9,6 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author Bpvank
- * @date 2022-07-20 10:24:44
  */
 public class BackstageMenuInfoService {
     BackstageMenuInfoDao dao = new BackstageMenuInfoDaoImpl();

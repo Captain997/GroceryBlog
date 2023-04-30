@@ -2,7 +2,6 @@ package com.epochge.entities;
 
 /**
  * 链接管理表
- * @author Bpvank
  */
 public class UrlInfo {
     private Integer urlId; // 链接编号

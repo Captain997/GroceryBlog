@@ -6,8 +6,6 @@ import java.util.List;
 
 /**
  * 添加链接
- *
- * @author Bpvank
  */
 public interface UrlInfoDao {
     // 添加链接

@@ -5,7 +5,7 @@ import com.epochge.entities.Message;
 import java.util.List;
 
 /**
- * @author Bpvank
+ *
  */
 public interface MessageDao {
     // 添加留言

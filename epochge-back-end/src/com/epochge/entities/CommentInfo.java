@@ -8,7 +8,6 @@ import java.util.List;
 
 /**
  * 评论实体类
- * @author Bpvank
  */
 public class CommentInfo {
     private Integer commentId;           // 评论id

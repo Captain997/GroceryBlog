@@ -11,9 +11,6 @@ import java.util.List;
 
 /**
  * 功能说明
- *
- * @author Bpvank
- * @date 2022-07-30 09:21:52
  */
 public class CommentInfoDaoImpl implements CommentInfoDao {
     JdbcTemplate jdbcTemplate = new JdbcTemplate(JDBCUtils.getDataSource());

@@ -8,7 +8,7 @@ import com.epochge.entities.PageBean;
 import java.util.List;
 
 /**
- * 留言
+ *
  */
 public class MessageService {
     MessageDao dao = new MessageDaoImpl();

@@ -9,8 +9,6 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author Bpvank
- * @date 2022-08-04 19:07:49
  */
 public class SystemSetupService {
     SystemSetupDao dao = new SystemSetupDaoImpl();

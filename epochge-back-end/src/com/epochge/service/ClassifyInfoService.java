@@ -9,8 +9,6 @@ import java.util.List;
 /**
  * 功能说明
  *
- * @author Bpvank
- * @date 2022-07-26 18:48:07
  */
 public class ClassifyInfoService {
     ClassifyInfoDao dao = new ClassifyInfoDaoImpl();

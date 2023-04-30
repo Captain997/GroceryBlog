@@ -7,7 +7,7 @@ import com.epochge.entities.*;
 import java.util.List;
 
 /**
- * @author Bpvank
+ *
  */
 public class ArticleInfoService {
     ArticleInfoDao dao = new ArticleInfoDaoImpl();

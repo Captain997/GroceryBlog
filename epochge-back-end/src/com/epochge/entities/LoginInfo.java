@@ -4,8 +4,6 @@ import java.util.Date;
 
 /**
  * 登录管理表
- *
- * @author Bpvank
  */
 public class LoginInfo {
     private Integer loginId; // 登录编号

@@ -2,7 +2,6 @@ package com.epochge.entities;
 
 /**
  * 文章分类表
- * @author Bpvank
  */
 public class ClassifyInfo {
     private Integer classifyId; // 分类编号

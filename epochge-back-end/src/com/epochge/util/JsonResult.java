@@ -1,8 +1,7 @@
 package com.epochge.util;
 
 /**
- * @author Bpvank
- * @param <T>
+ *
  */
 public class JsonResult<T> {
     private T data;
