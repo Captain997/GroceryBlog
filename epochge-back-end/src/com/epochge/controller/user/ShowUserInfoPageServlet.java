@@ -15,7 +15,6 @@ import java.util.HashMap;
 
 /**
  * 查询所有链接信息，分页，可带查询条件   搜索内容
- * @author Bpvank
  */
 @WebServlet("/user/page/findby")
 public class ShowUserInfoPageServlet extends HttpServlet {

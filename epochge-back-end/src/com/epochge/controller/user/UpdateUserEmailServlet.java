@@ -13,7 +13,6 @@ import java.util.HashMap;
 
 /**
  * 根据用户id修改用户绑定邮箱
- * @author Bpvank
  */
 @WebServlet("/user/updateUserEmail")
 public class UpdateUserEmailServlet extends HttpServlet {

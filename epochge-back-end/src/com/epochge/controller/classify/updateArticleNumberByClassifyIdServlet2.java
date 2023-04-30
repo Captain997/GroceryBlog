@@ -13,7 +13,6 @@ import java.util.HashMap;
 
 /**
  * 根据分类id减少文章数量
- * @author Bpvank
  */
 @WebServlet("/updateArticleNumberByClassifyId2")
 public class updateArticleNumberByClassifyIdServlet2 extends HttpServlet {

@@ -13,7 +13,6 @@ import java.util.HashMap;
 
 /**
  * 添加登录信息
- * @author Bpvank
  */
 @WebServlet("/login/insertLoginInfo")
 public class InsertLoginInfoServlet extends HttpServlet {

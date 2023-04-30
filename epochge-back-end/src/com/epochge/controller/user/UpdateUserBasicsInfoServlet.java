@@ -13,7 +13,6 @@ import java.util.HashMap;
 
 /**
  * 根据用户id修改用户基础信息：用户名、签名、头像
- * @author Bpvank
  */
 @WebServlet("/user/updateUserBasicsInfo")
 public class UpdateUserBasicsInfoServlet extends HttpServlet {

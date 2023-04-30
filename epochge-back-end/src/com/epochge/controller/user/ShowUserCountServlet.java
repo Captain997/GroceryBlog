@@ -12,9 +12,7 @@ import java.io.IOException;
 
 /**
  * 功能说明
- *
- * @author Bpvank
- * @date 2022-08-02 19:59:43
+ * 客户端请求时返回用户的数量
  */
 @WebServlet("/user/showUserCount")
 public class ShowUserCountServlet extends HttpServlet {

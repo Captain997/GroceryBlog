@@ -87,9 +87,10 @@ const routes = [
       component: () => require.ensure([], (require) => require('../components/backstage/main/articleOperation/articleManager/articleManager.vue'))
     }, {
       path: "/classifyManager",
-      name: "classifyManager",
-      meta: { title: '分类管理', chineseName: '分类管理', icon: 'Discount' },
-      component: () => require.ensure([], (require) => require('../components/backstage/main/articleOperation/classifyManager/classifyManager.vue'))
+      name: "分类管理",
+      // meta: { title: '分类管理', chineseName: '分类管理', icon: 'Discount' },
+      meta: { title: '分类管理', chineseName: '分类管理'},
+      component: () => require.ensure([], (require) => require('../components/backstage/main/classifyManager/classifyManager.vue'))
     }, {
       path: "/labelManager",
       name: "labelManager",
@@ -99,7 +100,7 @@ const routes = [
       // 评论管理
       path: '/commentManager',
       name: '评论管理',
-      meta: { title: 'Bpvank - 评论管理', chineseName: '评论管理' },
+      meta: { title: '评论管理', chineseName: '评论管理' },
       component: () => require.ensure([], (require) => require("../components/backstage/main/commentManager/commentManager.vue")),
     }, {
       path: "/userManager",

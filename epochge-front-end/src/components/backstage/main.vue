@@ -7,7 +7,7 @@
         <div class="common-layout">
             <el-container>
                 <!-- 左侧菜单栏 -->
-                <el-aside width="200px" class="hidden-xs-only">
+                <el-aside width="150px" class="hidden-xs-only">
                     <AsideMenu></AsideMenu>
                 </el-aside>
                 <el-container>

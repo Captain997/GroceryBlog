@@ -16,9 +16,7 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * @author Bpvank
- */
+
 @WebServlet("/userIcon")
 public class userIconUpload extends HttpServlet {
     private static final long serialVersionUID = 1L;

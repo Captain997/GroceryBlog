@@ -14,7 +14,6 @@ import java.util.List;
 
 /**
  * 根据用户id查询用户信息
- * @author Bpvank
  */
 @WebServlet("/showUserByUserId")
 public class ShowUserByUserIdServlet extends HttpServlet {

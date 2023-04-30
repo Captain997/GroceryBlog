@@ -15,7 +15,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author Bpvank
  */
 @WebServlet("/sendEmail2")
 public class SendEmail2 extends HttpServlet {

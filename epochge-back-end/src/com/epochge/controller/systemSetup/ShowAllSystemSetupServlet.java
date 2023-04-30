@@ -14,7 +14,6 @@ import java.util.List;
 
 /**
  * 查询全站的系统设置
- * @author Bpvank
  */
 @WebServlet("/showAllSystemSetup")
 public class ShowAllSystemSetupServlet extends HttpServlet {

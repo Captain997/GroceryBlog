@@ -17,9 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * @author Bpvank
- */
+
 @WebServlet("/articleVideoUpload")
 public class articleVideoUpload extends HttpServlet {
     private static final long serialVersionUID = 1L;

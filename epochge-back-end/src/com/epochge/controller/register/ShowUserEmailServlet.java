@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  * 查询用户注册的邮箱数据库是否存在
- * @author Bpvank
  */
 @WebServlet("/register/showUserEmail")
 public class ShowUserEmailServlet extends HttpServlet {

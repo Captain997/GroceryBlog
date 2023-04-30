@@ -15,7 +15,6 @@ import java.util.HashMap;
 
 /**
  * 根据文章标题进行搜索 并且 进行分页  判断是管理员还是普通用户
- * @author Bpvank
  */
 @WebServlet("/article/search/title")
 public class ShowArticleInfoByArticleTitlePageServlet extends HttpServlet {

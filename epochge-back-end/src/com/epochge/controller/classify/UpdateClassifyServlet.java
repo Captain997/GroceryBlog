@@ -16,8 +16,6 @@ import java.util.HashMap;
 
 /**
  * 根据文章id修改分类
- *
- * @author Bpvank
  */
 @WebServlet("/classify/updata")
 public class UpdateClassifyServlet extends HttpServlet {

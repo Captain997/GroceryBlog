@@ -15,7 +15,6 @@ import java.util.HashMap;
 
 /**
  * 查询所有通过审核并且所有可见的文章   可带关键字搜索
- * @author Bpvank
  */
 @WebServlet("/article/page/showAll")
 public class ShowAllArticleInfoPageServlet extends HttpServlet {

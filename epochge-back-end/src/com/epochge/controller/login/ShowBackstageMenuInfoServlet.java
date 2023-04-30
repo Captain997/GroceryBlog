@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  * 获取用户信息表所有数据，通过get请求到的数据，判断登录信息再用户信息表中是否存在
- * @author Bpvank
  */
 @WebServlet("/showBackstageMenuInfo")
 public class ShowBackstageMenuInfoServlet extends HttpServlet {

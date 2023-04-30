@@ -15,9 +15,7 @@ import java.util.List;
 
 /**
  * 功能说明
- *
- * @author Bpvank
- * @date 2022-07-16 22:17:51
+ * @date 2023-04-16 22:17:51
  */
 @WebServlet("/register/showUserName")
 public class ShowUserNameServlet extends HttpServlet {

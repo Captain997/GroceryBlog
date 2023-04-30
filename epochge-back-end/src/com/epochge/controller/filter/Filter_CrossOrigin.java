@@ -6,9 +6,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @author Bpvank
- */
 @WebFilter(filterName = "Filter_CrossOrigin",urlPatterns = "/*")
 public class Filter_CrossOrigin implements Filter {
     public void init(FilterConfig config) throws ServletException {

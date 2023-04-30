@@ -21,7 +21,7 @@ public class mail_demo_test{
         String to = registerEmail;
 
         // 发件人电子邮箱
-        String from = "478292420@qq.com";
+        String from = "epochgenet@qq.com";
 
         // 指定发送邮件的主机为 smtp.qq.com
         String host = "smtp.qq.com";  //QQ 邮件服务器
@@ -38,7 +38,7 @@ public class mail_demo_test{
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication() {
                 // 发件人邮件用户名、授权码
-                // 我的授权码gbuoutlxeriqjeae（写你自己）
+                // 我的授权码
                 return new PasswordAuthentication("478292420@qq.com", "zmxukesdnhzgbhje");
             }
         });
@@ -55,9 +55,9 @@ public class mail_demo_test{
                     new InternetAddress(to));
 
             // Set Subject: 头部头字段
-            message.setSubject("Bpvank博客邮箱验证");
+            message.setSubject("唐朝杂货铺博客邮箱验证");
             // 设置消息体
-            message.setText("【Bpvank】验证码：" + code + "，您正在注册Bpvank博客账号，请勿将验证码告知他人，有效期3分钟，请妥善保管。");
+            message.setText("【唐朝杂货铺验证码：" + code + "，您正在注册唐朝杂货铺博客账号，请勿将验证码告知他人，有效期3分钟，请妥善保管。");
             // 发送消息
             Transport.send(message);
             System.out.println("Sent message successfully....Harmony");

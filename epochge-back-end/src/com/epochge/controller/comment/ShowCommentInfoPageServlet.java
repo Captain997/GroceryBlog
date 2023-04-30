@@ -15,8 +15,6 @@ import java.util.HashMap;
 
 /**
  * 后台评论管理：分页查询  + 搜索框内容  管理员获取全部  普通用户获取自己的
- *
- * @author Bpvank
  */
 @WebServlet("/comment/page/byUserType")
 public class ShowCommentInfoPageServlet extends HttpServlet {

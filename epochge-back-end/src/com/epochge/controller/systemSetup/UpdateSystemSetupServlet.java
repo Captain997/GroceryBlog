@@ -16,7 +16,6 @@ import java.util.HashMap;
 
 /**
  * 修改系统设置
- * @author Bpvank
  */
 @WebServlet("/systemSetup/updateSystemSetup")
 public class UpdateSystemSetupServlet extends HttpServlet {

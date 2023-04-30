@@ -16,7 +16,6 @@ import java.util.HashMap;
 
 /**
  * 根据用户id修改用户信息
- * @author Bpvank
  */
 @WebServlet("/user/updateUserInfo")
 public class updateUserInfoServlet extends HttpServlet {

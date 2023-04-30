@@ -13,7 +13,6 @@ import java.util.HashMap;
 
 /**
  * 根据用户id修改用户密码
- * @author Bpvank
  */
 @WebServlet("/user/updateUserPass")
 public class UpdateUserPassServlet extends HttpServlet {

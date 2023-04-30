@@ -16,7 +16,6 @@ import java.util.HashMap;
 
 /**
  * 添加文章
- * @author Bpvank
  */
 @WebServlet("/message/insert")
 public class InsertMessageServlet extends HttpServlet {

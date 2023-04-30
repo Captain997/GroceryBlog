@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="epochge-back-end:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/epochge_back_end_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="epochge-back-end" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib (2)" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="epochge-back-end/web/Web" />
+    </root>
+  </artifact>
+</component>

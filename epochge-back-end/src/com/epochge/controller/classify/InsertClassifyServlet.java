@@ -16,7 +16,6 @@ import java.util.HashMap;
 
 /**
  * 添加分类
- * @author Bpvank
  */
 @WebServlet("/classify/insert")
 public class InsertClassifyServlet extends HttpServlet {

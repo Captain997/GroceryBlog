@@ -12,7 +12,6 @@ import java.io.IOException;
 
 /**
  * 查询评论总数
- * @author Bpvank
  */
 @WebServlet("/comment/count")
 public class ShowCommentCount extends HttpServlet {

@@ -16,7 +16,6 @@ import java.util.Properties;
 
 /**
  * 获取前端生成的验证码，发送给注册用户邮箱
- * @author Bpvank
  */
 @WebServlet("/register/registerGetCode")
 public class RegisterGetCodeServlet extends HttpServlet {
@@ -36,7 +35,7 @@ public class RegisterGetCodeServlet extends HttpServlet {
         String to = registerEmail;
 
         // 发件人电子邮箱
-        String from = "bpvank@qq.com";
+        String from = "epochgenet@qq.com";
 
         // 指定发送邮件的主机为 smtp.qq.com
         String host = "smtp.qq.com";  //QQ 邮件服务器
@@ -53,8 +52,8 @@ public class RegisterGetCodeServlet extends HttpServlet {
         Session session = Session.getDefaultInstance(properties,new Authenticator(){
             public PasswordAuthentication getPasswordAuthentication() {
                 // 发件人邮件用户名、授权码
-                // 我的授权码zmxukesdnhzgbhje（写你自己）
-                return new PasswordAuthentication("bpvank@qq.com", "zmxukesdnhzgbhje");
+                // 我的授权码
+                return new PasswordAuthentication("epochgenet@qq.com", "zmxukesdnhzgbhje");
             }
         });
 

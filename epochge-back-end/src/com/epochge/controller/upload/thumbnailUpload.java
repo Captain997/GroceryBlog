@@ -16,9 +16,7 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * @author Bpvank
- */
+
 @WebServlet("/thumbnailUpload")
 public class thumbnailUpload extends HttpServlet {
     private static final long serialVersionUID = 1L;
