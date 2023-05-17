@@ -6,7 +6,7 @@
         </div>
         <div class="search_input_box">
             <!-- 搜索框 -->
-            <el-input v-model="input" class="w-50 m-2 search_input" size="large" placeholder="请输入关键字进行搜索"
+            <el-input v-model="input" class="w-50 m-2 search_input" size="large" placeholder="输入关键字搜索"
                 clearable="true" :prefix-icon="Search" @keyup.enter.native="searchContent('')" />
         </div>
         <div class="search_link_box">
@@ -46,6 +46,7 @@
                 const nonce = Math.floor(Math.random() * 7+1);
                 const nonce2 = (nonce < 10 ? '0' + nonce : nonce);
                 state.url = require('../../../../assets/banner/搜索.png')
+                // state.url = require('https://cdn.jsdelivr.net/gh/Captain997/Blogimage@main/GroceryBlog/Seek.svg')
                 // alert(state.nonce)
             })
             const state = reactive({
@@ -101,14 +102,14 @@
     }
 
     .search_img_box {
-        width: 100%;
+        width: 50%;
         overflow: hidden;
         margin-bottom: 20px;
     }
 
     .search_img_box img {
-        width: 100%;
-        height: 100%;
+        width: 50%;
+        height: 50%;
         -o-object-fit: cover;
         object-fit: cover;
     }

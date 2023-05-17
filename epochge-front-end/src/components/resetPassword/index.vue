@@ -4,7 +4,7 @@
         <div class="midGroup">
             <div class="reset_password_group">
                 <div v-if="componentsInfo.isShow">
-                    <h2>通过电子邮箱找回密码</h2>
+                    <h2>找回密码</h2>
                     <!-- 1、确认账号 -->
                     <ConfirmAccount v-if="componentsInfo.confirmAccountIsShow" @setUserInfo="getUserInfo">
                     </ConfirmAccount>
@@ -27,17 +27,17 @@
                 <p style="font-size: 12px; color:#999;">
                     还没有账号，<span @click="toPath('/register')" style="color:#2fa7b9;cursor:pointer;">立即注册</span>
                     <p class="rests_path">
-                        <span @click="toPath('/login')">返回登录</span> | <span @click="toPath('/')">前往首页</span>
+                        <span @click="toPath('/login')">登录</span> | <span @click="toPath('/')">首页</span>
                     </p>
                 </p>
                 <footer style="text-align:center;">
-                    <p>相信有一天, 理想主义终将所向披靡.</p>
+                    <p>分享你的成果</p>
                 </footer>
             </div>
         </div>
         <div class="footer_copyright">
             <p>
-                · Designed by Bpvank. All Rights Reserved. Copyright © 2022 Bpvank ·
+                · Designed by captain. All Rights Reserved. Copyright © 2023 captain ·
             </p>
         </div>
     </div>

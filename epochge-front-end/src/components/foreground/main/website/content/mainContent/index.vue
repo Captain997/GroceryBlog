@@ -7,7 +7,7 @@
             <div class="centent_box friendshipLink">
                 <el-row :gutter="20">
                     <el-col :xs="12" :sm="6" :md="6" :lg="6" :xl="6">
-                        <a href="http://www.bpvank.com">
+                        <a href="http://www.epochge.com">
                             <el-card class="card_centent">
                                 <div class="card_img">
                                     <img src="../../../../../../assets/search_bg.jpg" />

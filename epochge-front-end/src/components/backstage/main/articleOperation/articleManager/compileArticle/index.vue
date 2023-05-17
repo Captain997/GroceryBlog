@@ -275,12 +275,7 @@
                 state.write.titleValue = val.articleTitle
                 state.write.abstractValue = val.articleDase
                 // 将文章缩略图url路径去除
-                var str = val.articleImgLitimg;
-                if (str.includes('http://101.43.207.70:8080/')) {
-                    str = str.replaceAll('http://101.43.207.70:8080/', "");
-                } else if (str.includes('http://www.bpvank.com:8080/')) {
-                    str = str.replaceAll('http://www.bpvank.com:8080/', "");
-                }
+                // 未开发，留坑代填
                 state.write.thumbnailValue = str
                 state.write.classifyValue = val.articleClassifyId
                 state.write.stateValue = val.articleState.toString()

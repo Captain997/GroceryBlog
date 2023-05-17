@@ -7,12 +7,12 @@
     </div>
     <el-form ref="ruleFormRef" :model="ruleForm" status-icon :rules="rules" label-width="120px"
         style="padding-top:20px;" label-position="top" size="large" class="demo-ruleForm">
-        <el-form-item prop="userNameOrEmail" label="请填写您需要找回的用户名或者电子邮箱：">
-            <el-input :prefix-icon="User" v-model="ruleForm.userNameOrEmail" placeholder="请输入用户名或者电子邮箱" />
+        <el-form-item prop="userNameOrEmail" label="">
+            <el-input :prefix-icon="User" v-model="ruleForm.userNameOrEmail" placeholder="输入用户名或邮箱" />
         </el-form-item>
         <!-- 验证码 -->
         <el-form-item prop="inputVerificationCode" style="width: 55%;float: left;">
-            <el-input :prefix-icon="Right" v-model="ruleForm.inputVerificationCode" placeholder="请输入验证码">
+            <el-input :prefix-icon="Right" v-model="ruleForm.inputVerificationCode" placeholder="验证码">
                 <template #append>
                     <VerificationCode ref="player" @getVerificationCode="getVerificationCode" title="看不清？点击换一张">
                     </VerificationCode>

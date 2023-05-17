@@ -1,4 +1,4 @@
-# bpvank-front-end
+# epochge-front-end
 
 ## Project setup
 ```

@@ -7,7 +7,7 @@
 
         <p style="margin-bottom:15px;color: #144b9f;">
             <div style="width: 12px;height:12px;background-color:#f9a332;border-radius: 50%;float: left;margin-top: 5px;
-            margin-right: 8px;"></div>Data statistics of this site
+            margin-right: 8px;"></div>网站概况
         </p>
         <el-row :gutter="40" class="data_row">
             <el-col :xs="24" :sm="12" :md="12" :lg="6" :xl="6">
@@ -66,7 +66,7 @@
 
         <p style="margin-bottom:15px;color: #144b9f;">
             <div style="width: 12px;height:12px;background-color:#f9a332;border-radius: 50%;float: left;margin-top: 5px;
-            margin-right: 8px;"></div>Data display of articles in this site
+            margin-right: 8px;"></div>文章详情
         </p>
         <el-row :gutter="35">
             <el-col :xs="24" :sm="24" :md="24" :lg="10" :xl="10">

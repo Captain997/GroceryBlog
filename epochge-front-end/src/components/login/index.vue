@@ -9,16 +9,16 @@
                         style="padding-top:20px;" label-position="top" size="large" class="demo-ruleForm">
                         <!-- @submit.native.prevent-->
                         <el-form-item prop="loginName">
-                            <el-input :prefix-icon="User" v-model="ruleForm.loginName" placeholder="请输入用户名或者电子邮箱" />
+                            <el-input :prefix-icon="User" v-model="ruleForm.loginName" placeholder="用户名或邮箱" />
                         </el-form-item>
                         <el-form-item prop="loginPass">
                             <el-input :prefix-icon="Lock" v-model="ruleForm.loginPass" show-password autocomplete="off"
-                                placeholder="请输入密码" />
+                                placeholder="密码" />
                         </el-form-item>
                         <!-- 验证码 -->
                         <el-form-item prop="inputVerificationCode">
                             <el-input :prefix-icon="Right" v-model="ruleForm.inputVerificationCode"
-                                placeholder="请输入验证码">
+                                placeholder="验证码">
                                 <template #append>
                                     <VerificationCode ref="player" @getVerificationCode="getVerificationCode"
                                         title="看不清？点击换一张">
@@ -32,20 +32,20 @@
                             </el-button>
                         </el-form-item>
                         <p class="toPath">
-                            还没有账号，<span style="color:#2fa7b9;" @click="toPath('/register')">立即注册</span>
+                            未注册，<span style="color:#2fa7b9;" @click="toPath('/register')">立即注册</span>
                             <span style="float:right;color:#999;" @click="toPath('/resetPassword')">忘记密码？</span>
                         </p>
                     </el-form>
 
                     <footer style="text-align:center;">
-                        <p>相信有一天, 理想主义终将所向披靡.</p>
+                        <p>分享你的成果</p>
                     </footer>
                 </div>
             </div>
         </div>
         <div class="footer_copyright">
             <p>
-                · Designed by Bpvank. All Rights Reserved. Copyright © 2022 Bpvank ·
+                · Designed by captain. All Rights Reserved. Copyright © 2023 captain ·
             </p>
         </div>
     </div>

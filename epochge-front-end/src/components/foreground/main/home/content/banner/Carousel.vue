@@ -22,24 +22,25 @@
             const imgs = [{
                     name: "banner01",
                     url: require('../../../../../../assets/banner/banner02.png'),
-                    // title: "粒粒皆辛苦"
+                    // title: "活活皆艰辛，没有一步可以轻松走过"
+                    
                 }
                 , {
                     name: "banner02",
                     url: require('../../../../../../assets/banner/banner03.png'),
-                    title: "青，取之于蓝而青于蓝;"
+                    // title: "靛，取之于蓝而深于蓝"
                 }, {
                     name: "banner03",
                     url: require('../../../../../../assets/banner/banner04.png'),
-                    title: "冰，水为之而寒于水；"
+                    // title: "风，在树林中吹动而快于树"
                 }, {
                     name: "banner04",
                     url: require('../../../../../../assets/banner/banner05.png'),
-                    // title: "业精于勤而荒于嬉，行成于思而毁于随；"
+                    // title: "持之以恒，勤奋方可有成；随心所欲，行事难以有成就"
                 }, {
                     name: "banner05",
                     url: require('../../../../../../assets/banner/banner06.png'),
-                    title: "人生能有几回博，此时不博何时博;"
+                    // title: "成功从不等待犹豫的人，只等待敢于冒险的人"
                 }
             ]
 
@@ -146,4 +147,10 @@
         align-items: center;
         text-align: center;
     }
+
+    /* 图片字体颜色 */
+    .title {
+    color: red;
+    }
+
 </style>

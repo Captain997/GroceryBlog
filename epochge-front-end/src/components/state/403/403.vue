@@ -18,7 +18,7 @@
                 </div>
                 <div class="copyright-footer">
                     <div class="copy-right">
-                        <p>Copyright &copy;2020 <a href="/" title="403">Bpvank.</a>
+                        <p>Copyright &copy;2023 <a href="/" title="403">captain.</a>
                             All rights reserved.</p>
                     </div>
                 </div>
