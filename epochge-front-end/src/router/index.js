@@ -56,7 +56,7 @@ const routes = [
     }, {
       path: "/message",
       name: "留言",
-      meta: { title: 'Bpvank - 留言' },
+      meta: { title: '留言' },
       component: () => require.ensure([], (require) => require('../components/foreground/main/message/message.vue'))
     }, {
       path: "/about",

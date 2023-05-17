@@ -44,7 +44,7 @@
                 <!-- 内容样式根据有没有图片改变 -->
                 <div class="textBox" :class="[item.articleImgLitimg ? '':'textBox2']">
                     <p style="margin-bottom: 25px;">{{item.articleDase}}</p>
-                    <!--<p>Bpvank · 11月前</p>-->
+                    <!--<p>11月前</p>-->
                     <p class="hidden-sm-and-up">{{item.userName}} · {{item.publishTime}}</p>
                     <p class="articleMessage hidden-xs-only"><span>
                             <el-icon>

@@ -45,13 +45,6 @@
             HeaderAppBarTwo
         },
         setup() {
-            // 进入后台提示
-            // ElNotification({
-            //     title: '欢迎回来',
-            //     message: '您已进入Bpvank博客后台!',
-            //     type: 'success',
-            //     duration: 2000,
-            // })
             return {
 
             }

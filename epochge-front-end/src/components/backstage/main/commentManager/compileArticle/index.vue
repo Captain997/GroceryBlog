@@ -146,7 +146,7 @@
 
             const toolbarConfig = {}
             const editorConfig = {
-                placeholder: '在Bpvank，开始您的Write吧~',
+                placeholder: '开启你的分享吧~',
                 MENU_CONF: {}
             }
             watch(valueHtml.value, function (value, oldvalue) {

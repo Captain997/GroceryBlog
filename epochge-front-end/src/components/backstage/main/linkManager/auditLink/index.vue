@@ -160,7 +160,7 @@
                                     registerEmail: state.auditLinkInfo.webmasterEmail,
                                     content: "您好，" + state.auditLinkInfo.urlName + "(" + state
                                         .auditLinkInfo.urlAddres +
-                                        ")站长，您在Bpvank博客中申请添加链接已通过，合作共赢！"
+                                        ")站长，您在唐朝杂货铺博客中申请添加链接已通过，合作共赢！"
                                 }
                                 axios.get("/sendEmail", {
                                     params

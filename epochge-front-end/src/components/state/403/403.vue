@@ -9,8 +9,8 @@
                         <span style="color: #a7621c;line-height: 30px;cursor: pointer;" @click="goBack">返回上一页</span>
                         <form action="https://www.x6d.com/" method="post" class="d-flex error-page-form">
                             <font style="color:#ffffff;font-size:21px;font-weight:bold;line-height: 35px;">
-                                此处为神秘境地，无法前往! ∑(っ°Д°;)っ</font>
-                            <el-button class="hidden-sm-and-down" color="#a7621c" round plain style="margin-left: 20px;"  @click="goHome">Bpvank</el-button>
+                                查无此地，无法前往! ∑(っ°Д°;)っ</font>
+                            <el-button class="hidden-sm-and-down" color="#a7621c" round plain style="margin-left: 20px;"  @click="goHome">captain</el-button>
                         </form>
 
                     </div>

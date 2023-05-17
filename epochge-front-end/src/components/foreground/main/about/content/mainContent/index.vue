@@ -139,7 +139,7 @@
                     </div>
 
                     <div class="otherInfo" v-if="item.replyContent !== null && item.replyContent !== ''"><strong
-                            style="color:#2FA7B9">Bpvank</strong>：{{item.replyContent}}</div>
+                            style="color:#2FA7B9">captain</strong>：{{item.replyContent}}</div>
                 </li>
             </ul>
         </div>

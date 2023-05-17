@@ -14,8 +14,8 @@
                                 </div>
 
                                 <div class="link_text">
-                                    <p>Bpvank - 每天都是不一样</p>
-                                    <span>一个分享学习笔记、个人生活的秘密基地.</span>
+                                    <p>唐朝杂货铺 - 分享自己的成果</p>
+                                    <span>一个教程、笔记分享的秘密基地.</span>
                                 </div>
                             </el-card>
                         </a>

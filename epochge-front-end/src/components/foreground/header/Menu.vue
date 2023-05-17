@@ -2,7 +2,7 @@
     <div class="hidden-xs-only header-menu">
         <el-menu :default-active="route.path" @select="handleSect" :router="true" :ellipsis="false" class="el-menu-demo"
             mode="horizontal" active-text-color='#2FA7B9'>
-            <img src="../../../assets/logo.svg" style="cursor: pointer;width:140px;" alt="Bpvank" @click="router.push({path:'/'})">
+            <img src="../../../assets/logo.svg" style="cursor: pointer;width:140px;" alt="captain" @click="router.push({path:'/'})">
             <div class="flex-grow" />
             <el-menu-item index="/">
                 <span>首页</span>
@@ -50,7 +50,7 @@
     </div>
 
     <div class="hidden-sm-and-up header-img">
-        <img src="../../../assets/logo.svg" style="cursor: pointer;width:140px;margin: 0 auto;" alt="Bpvank"  @click="router.push({path:'/'})">
+        <img src="../../../assets/logo.svg" style="cursor: pointer;width:140px;margin: 0 auto;" alt="captain"  @click="router.push({path:'/'})">
     </div>
 
 </template>

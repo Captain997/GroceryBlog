@@ -10,7 +10,7 @@
                         <form action="https://www.x6d.com/" method="post" class="d-flex error-page-form">
                             <font style="color:#ffffff;font-size:21px;font-weight:bold;line-height: 35px;">
                                 你穿越到了一个未知领域! ∑(っ°Д°;)っ</font>
-                            <el-button class="hidden-sm-and-down" color="#a7621c" round plain style="margin-left: 20px;"  @click="goHome">Bpvank</el-button>
+                            <el-button class="hidden-sm-and-down" color="#a7621c" round plain style="margin-left: 20px;"  @click="goHome">captain</el-button>
                         </form>
 
                     </div>
