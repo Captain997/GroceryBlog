@@ -7,11 +7,11 @@
             <li>如果你觉得本站很棒，可以通过扫码支付打赏哦！</li>
             <li><b>微信扫码：</b>感谢支持！</li>
             <li class="playTour_img">
-                <img src="../../../../assets/weChat_collection.jpg" alt="">
+                <img src="../../../../assets/logo.png" alt="">
             </li>
             <li><b>支付宝扫码：</b>感谢支持！</li>
             <li class="playTour_img">
-                <img src="../../../../assets/alipay_collection.jpg" alt="">
+                <img src="../../../../assets/logo.png" alt="">
             </li>
         </ul>
     </div>

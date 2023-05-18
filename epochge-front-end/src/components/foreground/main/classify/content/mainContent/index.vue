@@ -378,7 +378,7 @@
         display: block;
         width: 307px;
         min-height: 170px;
-        background: url(../../../../../../assets/dgy-empty.png) no-repeat;
+        background: url(../../../../../../assets/empty.png) no-repeat;
         background-size: 307px 160px;
         margin: 120px auto 0;
         padding-top: 170px;

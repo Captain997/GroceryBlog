@@ -10,7 +10,7 @@
                         <a href="http://www.epochge.com">
                             <el-card class="card_centent">
                                 <div class="card_img">
-                                    <img src="../../../../../../assets/search_bg.jpg" />
+                                    <img src="../../../../../../assets/唐朝杂货铺.jpg" />
                                 </div>
 
                                 <div class="link_text">

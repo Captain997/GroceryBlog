@@ -68,7 +68,7 @@
         top: 0;
         left: 0;
         padding: 10px;
-        background-image: url(../../assets/backstage-bg.jpg);
+        background-image: url(../../assets/backstage.jpg);
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
